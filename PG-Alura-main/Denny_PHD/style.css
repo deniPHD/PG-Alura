@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url(img/pessoas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50%;
+}
+.container_botao{
+    background-color: blue;
+    border-radius: 8%;
+    padding: 10px;
+    color: white;
+    display: block;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
